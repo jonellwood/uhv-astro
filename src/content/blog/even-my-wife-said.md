@@ -22,10 +22,10 @@ It's good. So good!
 
 ## The Upside
 
-- The texture is very close to actual group beef. My vife (not a vegan at all) tried it and even commented on how close the texture was to actual beef.
-- Like beef, the flavor pallet options are bountiful. I used a Trader Joes Taco Seasoning for this go 'round - but set some aside and tried it with just salt and pepper and it was great. This beleive this could be used in most any recepie in place of beef.
-- Much like the other plant based meat replacements I have experienced - one overhelming difference between this and beef is the lack of grease.
-  - Not putting that grease into my body has had numerous benefits thus far (see my post on [poops](./my-post-on-poops.md)).
+- The texture is very close to actual ground beef. My wife (_not a vegan at all_) tried it and commented on how close the texture was to actual beef.
+- Like beef, the flavor pallet options are bountiful. I used a Trader Joes Taco Seasoning for this go 'round - but set some aside and tried it with just salt and pepper and it was great. I believe this could be used in most any recipe in place of beef.
+- Much like the other plant based meat replacements I have experienced - one overwhelming difference between this and beef is the lack of grease.
+  - Not putting that grease into my body has had numerous benefits thus far (see my post on <a href="../my-poop-post">poops</a>).
   - Kitchen clean up and dishes is far easier. Without all that grease splatter I am saving money on Dawn dish soap!
 - [Cooking](#cooking) this product is a joyful breeze!
 
@@ -34,7 +34,7 @@ It's good. So good!
 - Well..... lemme think....
   - This is a personal one - but Trader Joe's is a good 30-45 min drive, each way, but you can order it online so ...
   - It is about $4.00 for what equates to one pound of quality ground meat ... less than or the same as what Google just told me beef costs as of this writing ...
-  - Oh! I know! You can not stock your freezer with it to eat in the event of a Zombie Apocalypsel; but that is becuase it is "dried, textured pea protein" and can be stored at room temperature according to Trader Joe's website ...
+  - Oh! I know! You can not stock your freezer with it to eat in the event of a Zombie Apocalypse; but that is because it is "dried, textured pea protein" and can be stored at room temperature according to Trader Joe's website ...
 - TODO: Find a downside to appear objective even if there is not one simply to avoid appearing biased.
 
 ## The Macros
@@ -74,7 +74,7 @@ This information is from [Trader Joe's](https://www.traderjoes.com/home/products
 
 Taco with Trader Joe's Meatless Ground, Violife Shredded Cheese, and flour tortilla.
 
-![Taco with Cheese](../../../public/assets/tj-tacos-1.jpeg)
-![Taco with Cheese](../../../public/assets/tj-tacos-2.jpeg)
+![Taco with Cheese](/assets/tj-tacos-1.jpeg)
+![Taco with Cheese](/assets/tj-tacos-2.jpeg)
 
 <sub>Photos were taken by this author</sub>

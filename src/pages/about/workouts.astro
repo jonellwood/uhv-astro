@@ -1,0 +1,28 @@
+---
+import { SITE } from "@config";
+
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+import Layout from "@layouts/Layout.astro";
+
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import AboutNav from "@components/AboutNav.astro";
+---
+
+<Layout>
+  <Header activeNav="about" />
+  <AboutNav activeSub="workouts" />
+  <Breadcrumbs />
+  <main id="main-content">
+    <section id="workouts" class="prose mb-28 max-w-3xl prose-img:border-0">
+      <h1 class="text-2xl tracking-wider sm:text-3xl">Workout Info</h1>
+      <div>
+        <p>
+          I really am not sure what I am going to do with this page if
+          anything....
+        </p>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

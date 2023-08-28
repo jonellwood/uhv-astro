@@ -1,7 +1,7 @@
 ---
 author: Jon Ellwood
 pubDatetime: 2023-05-15T17:22:45.737Z
-title: Me 2.0
+title: Me
 postSlug: me-version-2
 featured: true
 # ogImage: https://user-images.githubusercontent.com/53733092/215771435-25408246-2309-4f8b-a781-1f3d93bdf0ec.png
@@ -11,7 +11,7 @@ tags:
 description: Description of why I choose to become a vegan.
 ---
 
-My decsion to embrace a lifestyle that opts to not eat any products sourced from animals really came down to just five animals. Me, my wife, and my three kids. I made the decision 100% based on my overall health and my desire to live long enough to see all my children grow up to become producting human beings. The fact that it is saving animal lives is a secondary benefit.
+My decision to embrace a lifestyle that opts to not eat any products sourced from animals really came down to just five animals. Me, my wife, and my three kids. I made the decision, 100% based, on my overall health and my desire to live long enough to see all my children grow up to become productive human beings. The fact that it is saving animal lives is a secondary benefit.
 
 ![Introducing Me 2.0](https://media.istockphoto.com/id/1148612960/photo/young-plant-of-green-vegetable-peas-young-plant-of-green-peas-in-the-garden-of-early-spring.jpg?s=612x612&w=0&k=20&c=KzcpxNUP8MHtwI2JGZ0XnMo5mK0r-TT2PhSxOCrEnbQ=)
 
@@ -33,12 +33,12 @@ pes·ca·tar·i·an: a person who does not eat meat but does eat fish
 
 In what ways do I stray from the strict path?
 
-- i wear leather shoes & have leather car seats
-- i cook meat for my kids and give them milk
+- I wear leather shoes & have leather car seats
+- I cook meat for my kids and give them milk
 
 I simply choose not to eat meat or dairy and try like heck to avoid all other foods derived from animals. Yes this includes honey for the 🐝 's sake. I read labels religiously and do my best to eat food with as few ingredients as possible, ingredients I can pronounce, and I trust the &#9419; stamp on packaging.
 
-I would say I am close to a pescatarian that doesn't eat fish. What's the difference? I like nice shoes and you'll never catch me in Birkenstocks.
+I would say I am more like a pescatarian that doesn't eat fish. What's the difference? I like nice shoes and you'll never catch me in Birkenstocks.
 
 ### I am not a sounding board for 1,000,000 reason why I should be a strict vegan either.
 
@@ -60,4 +60,4 @@ Bhagavad Gita: Chapter 18, Verse 47
 - typos. guaranteed.
 - posts about meals I enjoyed (or did not as the case may be)
 - specific information about a product maybe
-  - I assue you no one is sponsoring me or this blog - but if the day ever comes that company sends me soemthing free to test out in exchange for a review - you can bet your sweet patootie it will be plain as day in said review.
+  - I assure you no one is sponsoring me or this blog - but if the day ever comes that company sends me something free to test out in exchange for a review - you can bet your sweet patootie it will be plain as day in said review.

@@ -1,0 +1,100 @@
+---
+import { SITE } from "@config";
+
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+import Layout from "@layouts/Layout.astro";
+import Book from "@components/Book.astro";
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import AboutNav from "@components/AboutNav.astro";
+---
+
+<Layout>
+  <Header activeNav="about" />
+  <AboutNav activeSub="library" />
+  <Breadcrumbs />
+  <main id="main-content">
+    <section id="book-library" class="prose mb-28 max-w-3xl prose-img:border-0">
+      <h1 class="text-2xl tracking-wider sm:text-3xl">On the bookshelf</h1>
+      <div class="bookshelf">
+        <Book
+          title="The Bhagavad Gita"
+          ,
+          author="Eknath Easwaran"
+          ,
+          img="https://m.media-amazon.com/images/I/41tIqNDvsDS._SX307_BO1,204,203,200_.jpg"
+          ,
+          href="https://www.amazon.com/The-Bhagavad-Gita-Eknath-Easwaran-audiobook/dp/B00TGA3HGO/ref=sr_1_1?crid=3NPDQV3VYLBFG&keywords=the+bhagavad+gita&qid=1692984203&s=books&sprefix=the+bhagavag%2Cstripbooks%2C91&sr=1-1"
+          target="_blank"
+        />
+        <Book
+          title="Automate the Boring Stuff with Python"
+          ,
+          author="Al Sweigart"
+          ,
+          img="https://m.media-amazon.com/images/I/51B161E04DL._SX375_BO1,204,203,200_.jpg"
+          ,
+          href="https://www.amazon.com/Automate-Boring-Stuff-Python-2nd/dp/1593279922/ref=sr_1_6?keywords=Python&qid=1692985496&s=books&sr=1-6"
+          target="_blank"
+        />
+        <Book
+          title="The Ransomware Hunting Team 🎧"
+          ,
+          author="Renee Dudley"
+          ,
+          img="https://m.media-amazon.com/images/I/51--x8JKaxL._SX322_BO1,204,203,200_.jpg"
+          ,
+          href="https://www.amazon.com/Ransomware-Hunting-Team-Improbable-Cybercrime/dp/125087260X/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1692986497&sr=1-1"
+          target="_blank"
+        />
+        <Book
+          title="Practical SQL, 2nd Edition"
+          ,
+          author="Anthony DeBarros"
+          ,
+          img="https://m.media-amazon.com/images/I/51z6o9WG-1L._SX376_BO1,204,203,200_.jpg"
+          ,
+          href="https://www.amazon.com/Practical-SQL-2nd-Beginners-Storytelling/dp/1718501064/ref=sr_1_1?keywords=Practical+SQL&qid=1692985657&s=books&sr=1-1"
+          target="_blank"
+        />
+        <Book
+          title="The Club: ..."
+          ,
+          author="Joshua Robinson & Jonathan Clegg"
+          ,
+          img="https://m.media-amazon.com/images/I/41uNKGyfM0L._SX330_BO1,204,203,200_.jpg"
+          ,
+          href="https://www.amazon.com/Club-English-Premier-Wildest-Disruptive/dp/0358213053/ref=asc_df_0358213053/?tag=hyprod-20&linkCode=df0&hvadid=366289401820&hvpos=&hvnetw=g&hvrand=4380987740227661232&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9010524&hvtargid=pla-815438317800&psc=1&tag=&ref=&adgrpid=79033899831&hvpone=&hvptwo=&hvadid=366289401820&hvpos=&hvnetw=g&hvrand=4380987740227661232&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9010524&hvtargid=pla-815438317800"
+          target="_blank"
+        />
+        <Book
+          title="The Dream Machine 🎧"
+          ,
+          author="M. Mitchell Waldrop"
+          ,
+          img="https://m.media-amazon.com/images/I/41OKEFgt20L._SX336_BO1,204,203,200_.jpg"
+          ,
+          href="https://www.amazon.com/Dream-Machine-M-Mitchell-Waldrop/dp/1732265119/ref=sr_1_1?crid=3VBJDBXN7N1SN&keywords=The+Dream+Machine&qid=1692986319&s=books&sprefix=the+dream+machine%2Cstripbooks%2C102&sr=1-1"
+          target="_blank"
+        />
+      </div>
+      <p class="text-sm">
+        Curious about how I made this library? Ask <a
+          href="https://daverupert.com/"
+          target="_blank">Dave Rupert</a
+        > - since I took the whole idea from his page. Let's call it a Homage as
+        it sounds more respectable than Plagiarism. Also his looks much better. His
+        is the Amazon version, mine is the AliExpress Version.
+      </p>
+    </section>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  .bookshelf {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10.5em, 1fr));
+    gap: 15px;
+  }
+</style>
