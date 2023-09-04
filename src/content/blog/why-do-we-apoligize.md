@@ -46,8 +46,12 @@ After coming to this conclusion I felt .... well I felt silly to be honest. But 
 
 **Does the intent matter**
 
-I think it clearly does. In this case I allowed anger into my day 100% because of situations I caused and then reacted too.
+I think it clearly does. In this case I allowed anger into my day 100% because of a situation I caused and then I reacted too.
 
 ## The Answer
 
-I don't have an answer...
+I was angry because, in essence, I didn't get what I wanted. I was angry because of my emotional immaturity.
+
+**_So what's the fix?_**
+
+I don't have a fix ... I can, and will, try to be more mindful of _why_ I feel the way I do, and try to be cognizant of the cause of those feelings (and when how much of that cause is me). That is about all I can do for now.
