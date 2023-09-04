@@ -1,5 +1,5 @@
 ---
-title: Why should I apologize?
+title: Why should I apologize
 author: Jon Ellwood
 pubDatetime: 2022-08-27T04:06:31Z
 postSlug: why-should-i-apologize
