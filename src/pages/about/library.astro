@@ -14,7 +14,11 @@ import AboutNav from "@components/AboutNav.astro";
   <AboutNav activeSub="library" />
   <Breadcrumbs />
   <main id="main-content">
-    <section id="book-library" class="prose mb-28 max-w-3xl prose-img:border-0">
+    <!-- <section id="book-library" class="prose mb-28 max-w-3xl prose-img:border-0"> -->
+    <section
+      id="book-library"
+      class="mb-28 ml-[120px] mr-[120px] prose-img:border-0"
+    >
       <h1 class="text-2xl tracking-wider sm:text-3xl">On the bookshelf</h1>
       <div class="bookshelf">
         <Book
@@ -27,6 +31,17 @@ import AboutNav from "@components/AboutNav.astro";
           href="https://www.amazon.com/The-Bhagavad-Gita-Eknath-Easwaran-audiobook/dp/B00TGA3HGO/ref=sr_1_1?crid=3NPDQV3VYLBFG&keywords=the+bhagavad+gita&qid=1692984203&s=books&sprefix=the+bhagavag%2Cstripbooks%2C91&sr=1-1"
           target="_blank"
         />
+        <Book
+          title="The Blue Zones Cookbook"
+          ,
+          author="Dan Buettner"
+          ,
+          img="https://m.media-amazon.com/images/I/915nQzjsMIL.jpg"
+          ,
+          href="https://www.amazon.com/Blue-Zones-American-Kitchen-Recipes/dp/1426222475/ref=sr_1_1?crid=3NCFQHVIXAML9&keywords=blue+zones+cookbook&qid=1693834442&s=books&sprefix=blue+zone%2Cstripbooks%2C253&sr=1-1"
+          target="_blank"
+        />
+
         <Book
           title="Automate the Boring Stuff with Python"
           ,
@@ -58,6 +73,16 @@ import AboutNav from "@components/AboutNav.astro";
           target="_blank"
         />
         <Book
+          title="Mindf*ck 🎧"
+          ,
+          author="Christopher Wylie"
+          ,
+          img="https://m.media-amazon.com/images/I/411t+gfdxGL._SX325_BO1,204,203,200_.jpg"
+          ,
+          href="https://www.amazon.com/Mindf-ck/dp/1788165004"
+          target="_blank"
+        />
+        <Book
           title="The Club: ..."
           ,
           author="Joshua Robinson & Jonathan Clegg"
@@ -75,6 +100,47 @@ import AboutNav from "@components/AboutNav.astro";
           img="https://m.media-amazon.com/images/I/41OKEFgt20L._SX336_BO1,204,203,200_.jpg"
           ,
           href="https://www.amazon.com/Dream-Machine-M-Mitchell-Waldrop/dp/1732265119/ref=sr_1_1?crid=3VBJDBXN7N1SN&keywords=The+Dream+Machine&qid=1692986319&s=books&sprefix=the+dream+machine%2Cstripbooks%2C102&sr=1-1"
+          target="_blank"
+        />
+        <Book
+          title="Pegasus 🎧"
+          ,
+          author="Laurent Richard and Sandrine Rigaud"
+          ,
+          img="https://m.media-amazon.com/images/I/51vXzEadR0L.jpg"
+          ,
+          href="https://www.amazon.com/Pegasus-Threatens-Privacy-Dignity-Democracy/dp/B09QBD91KX/ref=sr_1_1?keywords=pegasus+book&qid=1693832402&s=books&sprefix=pegasus%2Cstripbooks%2C119&sr=1-1"
+          target="_blank"
+        />
+        <Book
+          title="Permanent Record 🎧"
+          ,
+          author="Edward Snowden"
+          ,
+          img="https://m.media-amazon.com/images/I/91GgFOOnD+L._AC_UF1000,1000_QL80_.jpg"
+          ,
+          href="https://www.amazon.com/Permanent-Record-Edward-Snowden-audiobook/dp/B07VZWH6NB/ref=sr_1_1?crid=34KP693LBB94J&keywords=permanent+record&qid=1693832903&s=audible&sprefix=permanent+record%2Caudible%2C81&sr=1-1"
+          target="_blank"
+        />
+
+        <Book
+          title="Tracers in the Dark 🎧"
+          ,
+          author="Andy Greenberg"
+          ,
+          img="https://m.media-amazon.com/images/I/71ifCS8ZjLL._AC_UF1000,1000_QL80_.jpg"
+          ,
+          href="https://www.amazon.com/Tracers-Dark-Global-Crime-Cryptocurrency/dp/B09VLJ2WWD/ref=sr_1_1?crid=165BP0LBTN6GL&keywords=tracers+in+the+dark&qid=1693832599&s=audible&sprefix=tracers+in+the+dark%2Caudible%2C118&sr=1-1"
+          target="_blank"
+        />
+        <Book
+          title="Sandworm 🎧"
+          ,
+          author="Andy Greenberg"
+          ,
+          img="https://m.media-amazon.com/images/I/A1Asn5FZ-aL._AC_UF1000,1000_QL80_.jpg"
+          ,
+          href="https://www.amazon.com/Sandworm-Andy-Greenberg-audiobook/dp/B07RGRTZM6/ref=sr_1_2?crid=165BP0LBTN6GL&keywords=tracers+in+the+dark&qid=1693832599&s=audible&sprefix=tracers+in+the+dark%2Caudible%2C118&sr=1-2"
           target="_blank"
         />
       </div>
@@ -95,6 +161,5 @@ import AboutNav from "@components/AboutNav.astro";
   .bookshelf {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(10.5em, 1fr));
-    gap: 15px;
   }
 </style>

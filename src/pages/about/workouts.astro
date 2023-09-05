@@ -7,6 +7,8 @@ import Layout from "@layouts/Layout.astro";
 
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import AboutNav from "@components/AboutNav.astro";
+import Workout from "@components/Workout.astro";
+// import workoutData from "../data/workoutData.json";
 ---
 
 <Layout>
@@ -16,13 +18,70 @@ import AboutNav from "@components/AboutNav.astro";
   <main id="main-content">
     <section id="workouts" class="prose mb-28 max-w-3xl prose-img:border-0">
       <h1 class="text-2xl tracking-wider sm:text-3xl">Workout Info</h1>
-      <div>
-        <p>
-          I really am not sure what I am going to do with this page if
-          anything....
-        </p>
-      </div>
+      <table class="info">
+        <caption>&#127939; Running Workouts</caption>
+        <thead>
+          <tr>
+            <th>Date</th><th>Duration</th><th>Distance</th><th>Weather</th>
+          </tr>
+        </thead>
+        <tbody>
+          <Workout
+            type="Running"
+            date="07/31/2023"
+            duration="24 min"
+            distance="4.51 k"
+            weather="🌤 89°"
+          />
+          <Workout
+            type="Running"
+            date="08/03.2023"
+            duration="44 min"
+            distance="7.73 k"
+            weather="🌥 86°"
+          />
+
+          <Workout
+            type="Running"
+            date="08/12/2023"
+            duration="45 min"
+            distance="7.5 k"
+            weather="☀️ 81°"
+          />
+          <Workout
+            type="Running"
+            date="08/20/2023"
+            duration="33 min"
+            distance="5.02 k"
+            weather="☀️ 86°"
+          />
+
+          <Workout
+            type="Running"
+            date="08/23/2023"
+            duration="28 min"
+            distance="5.01 k"
+            weather="☀️ 88°"
+          />
+
+          <Workout
+            type="Running"
+            date="08/28/2023"
+            duration="29 min"
+            distance="5.05 k"
+            weather="🌤 88°"
+          />
+
+          <Workout
+            type="Running"
+            date="09/02/2023"
+            duration="107 min"
+            distance="16.02 k"
+            weather="☀️ 98°"
+          />
+        </tbody>
+      </table>
     </section>
   </main>
-  <Footer />
 </Layout>
+<Footer />

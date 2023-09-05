@@ -15,7 +15,10 @@ import Song from "@components/Song.astro";
   <AboutNav activeSub="playlists" />
   <Breadcrumbs />
   <main id="main-content">
-    <section id="playlists" class="prose mb-28 max-w-3xl prose-img:border-0">
+    <section
+      id="playlists"
+      class="mb-28 ml-[120px] mr-[120px] prose-img:border-0"
+    >
       <h1 class="text-2xl tracking-wider sm:text-3xl">Playlists I enjoy</h1>
       <div class="playlist-holder">
         <div class="playlist">
@@ -81,10 +84,10 @@ import Song from "@components/Song.astro";
           <p>This is playlist from Apple Fitness. Great for a half-hour run!</p>
         </div>
       </div>
-      <hr />
+      <hr class="my-12" />
       <div class="playlist-holder">
         <div class="playlist">
-          <h2>When I want to increase my 5k time</h2>
+          <h2>Decreasing my 5k time</h2>
           <div class="songs">
             <Song
               title="Sandstorm"
@@ -109,12 +112,12 @@ import Song from "@components/Song.astro";
   </main>
 </Layout>
 <style>
-  .playlist-holder {
+  /* .playlist-holder {
     display: flex;
-  }
+  } */
   .songs {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(10.5em, 1fr));
   }
   .song {
     /* display: grid; */
