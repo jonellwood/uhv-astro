@@ -1,5 +1,5 @@
 ---
-import { CollectionEntry, getCollection } from "astro:content";
+import { type CollectionEntry, getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import Main from "@layouts/Main.astro";
 import Header from "@components/Header.astro";
@@ -43,6 +43,7 @@ const sortTagsPost = getSortedPosts(tagPosts);
   <Main
     pageTitle={`Tag:${tag}`}
     pageDesc={`All the articles with the tag "${tag}".`}
+    transition:animate="fade"
   >
     <ul>
       {

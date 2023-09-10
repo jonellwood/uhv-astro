@@ -1,13 +1,11 @@
 ---
-import { Image } from "astro:assets";
-// import logo from "../images/logo.png";
+// import { Image } from "astro:assets";
+// import logoPNG from "../images/logo.png";
 
-import { LOGO_IMAGE, SITE } from "@config";
+// import { LOGO_IMAGE, SITE } from "@config";
 import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
-
-import logoPNG from "../images/logo.png";
-// import logoSVG from "/assets/logo.svg";
+// import ThemeIcon from "./ThemeIcon.astro";
 
 export interface Props {
   activeNav?: "posts" | "tags" | "about" | "search";
@@ -21,7 +19,8 @@ const { activeNav } = Astro.props;
   <div class="nav-container">
     <div class="top-nav-wrap">
       <a href="/" class="logo">
-        {
+        <img src="/assets/logo.png" alt="Logo" class="logo" />
+        <!-- {
           LOGO_IMAGE.enable ? (
           // <img
           //   src={LOGO_IMAGE.svg ? logoSVG : logoPNG}
@@ -30,12 +29,11 @@ const { activeNav } = Astro.props;
           //   width={LOGO_IMAGE.width}
           //   height={LOGO_IMAGE.height}
           // />
-          // <img src="../../src/images/logo.png" alt="Logo" class="logo" />
-            <Image src={logoPNG} alt="UHV Logo" />
+            // <Image src={logoPNG} alt="UHV Logo" width="200" />
           ) : (
             SITE.title
           )
-        }
+        } -->
       </a>
       <nav id="nav-menu">
         <button
@@ -102,7 +100,10 @@ const { activeNav } = Astro.props;
               </svg>
             </LinkButton>
           </li>
-          <li>
+          <!-- <li>
+            <ThemeIcon />
+          </li> -->
+          <!-- <li>
             {
               SITE.lightAndDarkMode && (
                 <button
@@ -121,7 +122,7 @@ const { activeNav } = Astro.props;
                 </button>
               )
             }
-          </li>
+          </li> -->
         </ul>
       </nav>
     </div>
