@@ -18,7 +18,7 @@ $10 a month. I'd say the cost of a cup of coffee per day .... but more like 1/10
 
 ## The Thought Process
 
-**Note: ** Please see full disclaimer at end of this post regarding content. The TLDR: Everything here is my opinion, I try to be as accurate as possible but am a human, I make mistakes - please do not use this information as a sole source in making business decisions, or otherwise. Thanks.
+**Note:** Please see full disclaimer at end of this post regarding content. The TLDR: Everything here is my opinion, I try to be as accurate as possible but am a human, I make mistakes - please do not use this information as a sole source in making business decisions, or otherwise. Thanks.
 
 It is nearly impossible to listen to a web dev podcast right now and not hear about "AI". In the podcasts I listen to those talks inevitable lead to talking about [Github's Copilot](https://github.com/features/copilot) product. Github graciously offers a free trial, as of the time of this writing they offer a 30-day free trial, and after hearing both good and bad feedback about the product (*mostly good*) I decided to give it a go. At the end of the trial, I decided to go a different route.
 
