@@ -4,7 +4,8 @@ author: Jon Ellwood
 pubDatetime: 2023-09-18T011:30:31Z
 postSlug: why-choose-codepen-over-copilot
 featured: true
-draft: false
+ogImage: https://https://media.istockphoto.com/id/1296110471/photo/woman-hiking-and-going-camping-in-nature.jpg?s=612x612&w=0&k=20&c=MzjTBdwL0GMadIW6THkJ_o5_Roj83xvBweFPKNDoRPM=
+
 tags:
   - Webdev
   - AI
