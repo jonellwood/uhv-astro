@@ -25,6 +25,7 @@ It is nearly impossible to listen to a web dev podcast right now and not hear ab
 ## My environment
 
 **Some context regarding my experiences**
+
 I work as a full-time developer for a government agency. I have been developing professionally for a little less than a year now, and as a hobby and on the side for about 4 years now. At work I primarily work in PHP, MySQL and SQL as well as dabble in AWS Lambda written using Python. Outside of work I am a big believer in the fundamentals of web development and using HTML, CSS, and JavaScript to accomplish my goals. 
 
 *I have also recently become a **HUGE** fan of AstroJS. Not 100% relevant here maybe - but anytime I can talk good about AstroJS I am going to.* 
@@ -42,7 +43,7 @@ and then wait a few seconds and am presented with this:
 	    var pattern = /^\d{3}-\d{2}-\d{4}$/; 
 	    return pattern.test(email); 
     }
-That's pretty cool. Especially given how much I dislike writing Regex because admittedly I just don't know them well enough to enjoy it. (By the way I didn't use the code above and have no clue if it is correct - just saying). Now I could just as easily gotten this from [Stack Overflow,](https://stackoverflow.com/) [GeeksforGeeks](https://www.geeksforgeeks.org/), or a handful of other sites, but this is happening in my little VS Code world and I don't need to open a browser window to do it. I don't need to sift through several posts and read a bunch of comments about "better" ways to do it .. which for me can be real time killer. Once I start clicking on links to "learn more" ...  well let's just say I can lose half a day that way. 
+That's pretty cool. Especially given how much I dislike writing Regex because admittedly I just don't know them well enough to enjoy it. (_By the way I didn't use the code above and have no clue if it is correct - just saying_). Now I could just as easily gotten this from [Stack Overflow,](https://stackoverflow.com/) [GeeksforGeeks](https://www.geeksforgeeks.org/), or a handful of other sites, but this is happening in my little VS Code world and I don't need to open a browser window to do it. I don't need to sift through several posts and read a bunch of comments about "better" ways to do it .. which for me can be real time killer. Once I start clicking on links to "learn more" ...  well let's just say I can lose half a day that way. 
 
 I also really enjoy the feeling that the code suggestion is created for me specifically. All mine to use until I decide to share it with the world. 
 
@@ -51,7 +52,7 @@ Then I started to notice that when I stopped to think, or scratch my leg, or tak
     async function getOrdersByDepartment(dep, status) {
     
     }
-and then stopped to scratch my nose Copilot might suggest 15-20 lines of code, based on previous functions in the code base I think, that were totally wrong and not relevant to what I was doing. And that's okay, I am not perfect so I cannot expect it to be perfect - unless I hit `tab` or `enter` in error and inserted the code I did not want it's no harm done. And I hit the wrong key that is on my really. I did however find it to be a little disorienting and *very* distracting. I found myself disabling Copilot when I needed to really think through how to approach something. Which is kind of the opposite of what I wanted from my Little Coding Buddy. 
+and then stopped to scratch my nose Copilot might suggest 15-20 lines of code, based on previous functions in the code base I think, that were totally wrong and not relevant to what I was doing. And that's okay, I am not perfect so I cannot expect it to be perfect - unless I hit `tab` or `enter` in error and inserted the code I did not want it's no harm done. And if I hit the wrong key, well that is on me. I did, however, find it to be a little disorienting and *very* distracting. I found myself disabling Copilot when I needed to _really_ think through how to approach something. Which is kind of the opposite of what I wanted from my Little Coding Buddy. 
 
 I will say if I was doing something repetitive, such as looping over an array and returning each value how and where I needed it, Copilot was great at suggesting exactly what I needed. It was essentially "autocomplete" for stuff I knew - but was just a pain to type out. What I was expecting was something more akin this scenario: 
 
