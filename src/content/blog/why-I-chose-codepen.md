@@ -18,7 +18,7 @@ $10 a month. I'd say the cost of a cup of coffee per day .... but more like 1/10
 
 ## The Thought Process
 
-**Note:** Please see full disclaimer at end of this post regarding content. The TLDR: Everything here is my opinion, I try to be as accurate as possible but am a human, I make mistakes - please do not use this information as a sole source in making business decisions, or otherwise. Thanks.
+**Note:** Please see full disclaimer at end of this post regarding content. The TLDR: Everything here is my opinion, I try to be as accurate as possible but I am a human, I make mistakes - please do not use this information as a sole source in making business decisions, or any decisions really. Thanks.
 
 It is nearly impossible to listen to a web dev podcast right now and not hear about "AI". In the podcasts I listen to those talks inevitable lead to talking about [Github's Copilot](https://github.com/features/copilot) product. Github graciously offers a free trial, as of the time of this writing they offer a 30-day free trial, and after hearing both good and bad feedback about the product (*mostly good*) I decided to give it a go. At the end of the trial, I decided to go a different route.
 
@@ -75,7 +75,7 @@ While out for a run one day my mind wandered as it is prone to do during the two
 
 When I am stuck on something, or I have an idea in my head that is not fully matured, or I have a concept, but I am not 100% sure where it needs to go - I head straight to CodePen and look for ideas. And yes, I have lost half a day browsing through pens and seeing all the amazing ways other people have solved a similar issue ... *and probably 20 other cools things as well* ...  I always find the creativity inspiring. And that, at the end of the day, was the deciding factor for me. While Copilot could give me code, it never sparked any ideas. It could suggest ways to accomplish what I thought I wanted - but on many an occasion CodePen had taken a spark of an idea and ignited it into a full-fledged feature.
 
-> CodePen is where I go to get inspired. -Me
+> CodePen is where I go to get inspired.
 
 <cite>- Me</cite>
 
