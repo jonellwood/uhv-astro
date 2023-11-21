@@ -72,9 +72,21 @@ const { activeSub } = Astro.props;
   .sub-nav-container {
     @apply mx-auto mt-6 flex max-w-3xl flex-col items-center justify-start sm:flex-row;
   }
+  .sub-nav-container{
+    margin: 5px auto;
+    padding: 20px;
+    border: 2px solid;
+    background: #ddd;
+    box-shadow: 1px 1px, 2px 2px, 3px 3px, 4px 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+  }
   .top-nav-wrap {
     @apply relative flex w-full items-start justify-between p-4 sm:items-center sm:py-8;
   }
+  
   .logo {
     @apply absolute py-1 text-xl font-semibold sm:static sm:text-2xl;
   }
@@ -137,7 +149,8 @@ const { activeSub } = Astro.props;
     @apply opacity-100;
   }
   #sub-nav {
-    margin-left: -40%;
+    /* margin-left: -40%; */
+    background-color: #ddd;
   }
   #sub-nav ul {
     list-style: none;

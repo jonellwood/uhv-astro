@@ -19,7 +19,7 @@ const { activeNav } = Astro.props;
   <div class="nav-container">
     <div class="top-nav-wrap">
       <a href="/" class="logo">
-        <img src="/assets/logo.png" alt="Logo" class="logo" />
+        <img src="/assets/uhv-logos/png/logo-no-background.png" alt="Logo" class="logo" />
         <!-- {
           LOGO_IMAGE.enable ? (
           // <img
@@ -137,6 +137,14 @@ const { activeNav } = Astro.props;
   .nav-container {
     @apply mx-auto flex max-w-3xl flex-col items-center justify-between sm:flex-row;
   }
+  .nav-container{
+    background-color: #fff;
+    border: 2px solid;
+    width: 1000px;
+    /* max-width: calc(100% - 40px); */
+    background: #ddd;
+    box-shadow: 1px 1px, 2px 2px, 3px 3px, 4px 4px;
+  }
   .top-nav-wrap {
     @apply relative flex w-full items-start justify-between p-4 sm:items-center sm:py-8;
   }
@@ -152,6 +160,9 @@ const { activeNav } = Astro.props;
 
   nav {
     @apply flex w-full flex-col items-center bg-skin-fill sm:ml-2 sm:flex-row sm:justify-end sm:space-x-4 sm:py-0;
+  }
+  nav{
+    background-color: #ddd;
   }
   nav ul {
     @apply mt-4 w-44 grid-cols-2 grid-rows-4 gap-x-2 gap-y-2 sm:ml-0 sm:mt-0 sm:w-auto sm:gap-x-5 sm:gap-y-0;

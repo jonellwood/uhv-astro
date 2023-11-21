@@ -60,13 +60,31 @@ const ogUrl = new URL(ogImage ? ogImage : `${title}.png`, Astro.url.origin)
   main {
     @apply mx-auto w-full max-w-3xl px-4 pb-12;
   }
+  main {
+    
+    color: #000;
+    border: 2px solid;
+    width: 1000px;
+    /* max-width: calc(100% - 40px); */
+    background: #ddd;
+    box-shadow: 1px 1px, 2px 2px, 3px 3px, 4px 4px;
+    margin-top: 5%;
+    margin: 20px auto;
+    padding: 20px;
+  }
   .post-title {
-    @apply text-2xl font-semibold text-skin-accent;
+    /* @apply text-2xl font-semibold text-skin-accent; */
+    @apply text-2xl font-semibold;
+  }
+  #article p {
+    color: hotpink !important;
   }
   .tags-container {
     @apply my-8;
   }
-  h2 {
-    color: hotpink !important;
+  #table-of-contents{
+    background-color: hotpink;
   }
+  
+  
 </style>

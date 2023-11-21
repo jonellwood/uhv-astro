@@ -3,7 +3,7 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://theunhealthyvegan.com/",
   author: "Jon Ellwood",
-  desc: "My blog using AstroPaper theme.",
+  desc: "My blog using AstroPaper template and heavily modified CSS.",
   title: "The Unhealthy Vegan",
   ogImage: "unhealthyvegan-og.jpg",
   lightAndDarkMode: true,

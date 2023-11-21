@@ -24,7 +24,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content" transition:animate="fade">
     <section id="hero">
-      <h1>The Unhealthy Vegan &#129365;</h1>
+      <h1>The <i>unhealthy</i> Vegan &#129365;</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -114,6 +114,9 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 </Layout>
 <style>
   /* ===== Hero Section ===== */
+  /* #hero{
+    background-color: #ddd;
+  } */
   #hero {
     @apply pb-6 pt-8;
   }
