@@ -1,0 +1,36 @@
+---
+import { SITE } from "@config";
+
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+import Layout from "@layouts/Layout.astro";
+import AboutNav from "@components/AboutNav.astro";
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import AboutMe from "@components/About.astro";
+---
+
+<Layout>
+  <Header activeNav="about" />
+  <AboutNav activeSub="about" />
+  <Breadcrumbs />
+  <main id="main-content" transition:animate="fade">
+    <section id="about" class="prose mb-28 max-w-3xl prose-img:border-0">
+      <h1 class="test-2xl tracking-wider sm:text-3xl">About me</h1>
+      <AboutMe />
+    </section>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  #main-content{
+    
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid;
+    /* width: 1000px; */
+    max-width: calc(100% - 40px);
+    background: #ddd;
+    box-shadow: 1px 1px, 2px 2px, 3px 3px, 4px 4px;
+  }
+</style>

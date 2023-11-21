@@ -1,0 +1,48 @@
+---
+export interface Props {
+  centered?: boolean;
+  title: string;
+  artist: string;
+  img: string;
+}
+const { centered = false, title, artist, img } = Astro.props;
+---
+
+<div class={`song ${centered ? "flex" : ""}`}>
+  <img src={img} alt={title} />
+  <div class="info">
+    <h3 class="title">
+      {title}
+      <p class="artist">- {artist}</p>
+    </h3>
+  </div>
+</div>
+<style>
+  .song {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    height: max-content;
+  }
+  .song img {
+    width: 150px;
+    height: auto;
+    margin: auto;
+  }
+  .info {
+    margin-top: 1em;
+  }
+  .info h3 {
+    font-size: 1em;
+    margin: 0;
+    text-align: left;
+  }
+  .artist {
+    position: relative;
+    bottom: 0;
+    text-align: left;
+    font-size: 0.55em;
+  }
+</style>
