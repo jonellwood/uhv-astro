@@ -2,7 +2,7 @@
 import { SITE } from "@config";
 import "@styles/base.css";
 import "@styles/brutal.css";
-import { ViewTransitions } from "astro:transitions";
+// import { ViewTransitions } from "astro:transitions";
 const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
 
 export interface Props {
@@ -38,7 +38,7 @@ const socialImageURL = new URL(
 
     <!-- General Meta Tags -->
     <title>{title}</title>
-    <ViewTransitions />
+    <!-- <ViewTransitions /> -->
     <meta name="title" content={title} />
     <meta name="description" content={description} />
     <meta name="author" content={author} />
@@ -77,7 +77,7 @@ const socialImageURL = new URL(
       )
     }
 
-    <script is:inline src="/toggle-theme.js"></script>
+    <!-- <script is:inline src="/toggle-theme.js"></script> -->
   </head>
   <body>
     <slot />
