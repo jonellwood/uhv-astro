@@ -3,7 +3,7 @@ import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
 
 export interface Props {
-  activeNav?: "posts" | "tags" | "about" | "search";
+  activeNav?: "posts" | "tags" | "about" | "search" | "library" | "playlists" | "workouts";
 }
 
 const { activeNav } = Astro.props;
@@ -11,11 +11,11 @@ const { activeNav } = Astro.props;
 
 <header>
   <a id="skip-to-content" href="#main-content">Skip to content</a>
-  <div class="nav-container">
-    <div class="top-nav-wrap">
-      <a href="/" class="logo">
+  <div class="nav-container bubble">
+    <div class="top-nav-wrap bubble">
+      <!-- <a href="/" class="logo">
         <img src="/assets/uhv-logos/png/logo-no-background.png" alt="Logo" class="logo" />
-      </a>
+      </a> -->
       <nav id="nav-menu">
         <button
           class="hamburger-menu focus-outline"
@@ -59,6 +59,22 @@ const { activeNav } = Astro.props;
             </a>
           </li>
           <li>
+            <a href="/about/library" class={activeNav === "library" ? "active" : ""}>
+              Library
+            </a>
+          </li>
+          <li>
+            <a href="/about/playlists" class={activeNav === "playlists" ? "active" : ""}>
+              Playlists
+            </a>
+          </li>
+          <li>
+            <a href="/about/workouts" class={activeNav === "workouts" ? "active" : ""}>
+              Workouts
+            </a>
+          </li>
+          
+          <li>
             <LinkButton
               href="/search"
               className={`focus-outline p-3 sm:p-1 ${
@@ -88,7 +104,7 @@ const { activeNav } = Astro.props;
     @apply absolute -top-full left-16 z-50 bg-skin-accent px-3 py-2 text-skin-inverted transition-all focus:top-4;
   }
   .nav-container {
-    @apply mx-auto flex max-w-3xl flex-col items-center justify-between sm:flex-row;
+    @apply mx-auto flex flex-col items-center justify-between sm:flex-row flex-wrap;
   }
   .nav-container{
     background-color: #fff;

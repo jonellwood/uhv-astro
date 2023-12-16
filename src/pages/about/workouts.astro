@@ -6,14 +6,14 @@ import Header from "@components/Header.astro";
 import Layout from "@layouts/Layout.astro";
 
 import Breadcrumbs from "@components/Breadcrumbs.astro";
-import AboutNav from "@components/AboutNav.astro";
+// import AboutNav from "@components/AboutNav.astro";
 import Workout from "@components/Workout.astro";
 // import workoutData from "../data/workoutData.json";
 ---
 
 <Layout>
-  <Header activeNav="about" />
-  <AboutNav activeSub="workouts" />
+  <Header activeNav="workouts" />
+  <!-- <AboutNav activeSub="workouts" /> -->
   <Breadcrumbs />
   <main id="main-content">
     <section id="workouts" class="prose mb-28 max-w-3xl prose-img:border-0">
